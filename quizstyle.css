@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-image: url("images/flag.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quiz {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    opacity: .7;
+    height: 500px;
+}
+
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.option-button {
+    background-color: #d0eaff;
+    border: 1px solid #0051a8;
+    border-radius: 5px;
+    color: #0d4886;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    width: 100%; 
+    max-width: 400px; 
+    margin: 10px 0;
+}
+
+.option-button:hover {
+    background-color: #c0e0ff;
+}
+
+.option-button:active {
+    background-color: #a0c0ff;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+@media(min-width: 355px) {
+
+    .flex {
+        /* Flex box styles go on the flex box element */
+        display: flex;
+        justify-content: space-between;
+    }
+    #quiz {
+        margin: 10px;
+    }
+}
+
+/* @media(min-width: 768px) {
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    #quiz {
+        height:auto;
+    }
+
+    .option-button {
+        font-size: 15px;
+    }
+} */
+
+@media(min-width: 1920px) {
+
+}
