@@ -158,16 +158,18 @@ function showResult() {
     const scoreColor = scorePercentage >= 60 ? 'green' : 'red';
 
     quiz.innerHTML = `
-        <h1>Quiz Completed!</h1>
+          <h1 class="completed"> Quiz Completed! </h1> 
         <p style="color: ${scoreColor};">Your score: ${score}/${quizData.length} (${scorePercentage.toFixed(2)}%)</p>
         <p>The exam can be a lot more challenging than it seems. The key to doing well on the real exam is consistent studying. Below are some resources that can help, and they are all free to access and practice using. Good luck!</p>
         <p> Resources: </p>  
-        <p> Here are some resources for the US Citizenship Test in both English and Spanish.</p>
+        <p> Here are some resources to prepare for the US Citizenship Test.</p>
         <p> <a href= "https://bookstore.gpo.gov/products/preparing-naturalization-test-pocket-study-guidespanish" target="_blank"> Naturalization Test </a></p>
-        <p> <a href= " https://www.citizenshipstudyguide.com Free Citizenship Test" target="_blank"> Free Citizenship Test </a></p>
-        <p> <a href= " https://www.uscis.gov/citizenship/civics-practice-test-2008 U.S Citizenship and Inmigration Services" target="_blank"> Civics Practice Test </a></p>
-        <p> <a href= "https://www.nypl.org/help/community-outreach/immigrant-services/citizenship" target="_blank"> Test Resources</a></p>
-        <p> <a href= "https://citizenpath.com/us-citizenship-test-interview-preparation/" target="_blank"> Test Preparation</a></p>
+     <p> <a href= " https://www.uscis.gov/sites/default/files/document/guides/M-1122.pdf" target="_blank"> Preparing for Naturalization Test </a></p>
+     <p> <a href= "https://www.uscis.gov/sites/default/files/document/flash-cards/M-623_red_slides.pdf"target="_blank">Civics Flash Cards </a></p>
+     <p> <a href= "https://www.nypl.org/help/community-outreach/immigrant-services/citizenship" target="_blank"> Test Resources</a></p>
+
+    
+    
     `;
 }
 
