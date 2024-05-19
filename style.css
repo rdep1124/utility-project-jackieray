@@ -9,13 +9,13 @@ body {
 h1 {
     font-family: "Nunito Sans", sans-serif;
     font-size: xx-large;
-    color: darkred
+    color: darkred;
     
 }
 
 p {
     font-family: "PT Serif", serif;
-    font-size: large
+    font-size: large;
 }
 
 span {
